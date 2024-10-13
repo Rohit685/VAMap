@@ -7,7 +7,9 @@ const VirginiaMap = () => {
     const [currentCounty, setCounty] = useState("");
     return (
         <>
-        <h1>Current County being Hovered: {currentCounty}</h1>
+            <div>
+        <p>Current County being Hovered: {currentCounty}</p>
+                </div>
         <ComposableMap
             projection="geoMercator"
             projectionConfig={{
