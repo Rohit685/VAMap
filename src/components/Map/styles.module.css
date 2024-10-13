@@ -1,0 +1,7 @@
+.map {
+  background: pink;
+}
+h1{
+  display:flex;
+  justify-content: center;
+}
